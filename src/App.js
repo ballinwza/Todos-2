@@ -49,7 +49,7 @@ function App() {
         todos.map((item, index)=>{
           return(
             <div key={index}>
-              <TodoItem id={item._id} title={item.title} description={item.description}
+              <TodoItem id={item._id} title={item.title} description={item.description} dateCreate={item.createdAt} dateUpdate={item.updatedAt}
               onClickDelete={()=>{
                 deleteData(item._id)
                 dispatch(deleteTrig(true))

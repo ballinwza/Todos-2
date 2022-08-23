@@ -80,9 +80,7 @@ export const updateData = (id, state) =>{
                 "Content-Type": "application/json",
                 "Authorization": data.token,
             },
-            body: JSON.stringify({
-                title: state
-            }),
+            body: JSON.stringify(state),
         }
         fetch(`${url}/${id}` ,option2)
         .then(res=>res.json())
