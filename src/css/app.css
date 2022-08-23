@@ -1,0 +1,28 @@
+.App{
+    background-color: gray;
+    width: 100%; 
+    min-height: 100vh;
+    position: relative;
+    padding-top: 10%;
+}
+
+.todo-conteiner{
+    width: 40%;
+    background-color: white;
+    margin: auto;
+}
+
+.main-page{
+    background-color: pink;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-page div {
+    width: 100%;
+}
